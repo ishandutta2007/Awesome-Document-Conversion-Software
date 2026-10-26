@@ -14,7 +14,7 @@
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
-## Top Digital Negative (DNG) Conversion
+### Top Digital Negative (DNG) Conversion
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
@@ -110,117 +110,230 @@ Star the repo if you find it useful!
 
 Let's keep RAW processing and DNG conversion open, reliable, and future-proof.
 >>>>>>> 72a288fb4613ad2992ba45edfb2429defc6eed28
-# Top Document Conversion Software Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Format Transformation, PDF Editing & Self-Hosted Document Processing*  
-**Last updated: October 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Document Conversion Software**. These tools enable users to convert documents between formats (PDF, DOCX, ODT, HTML, Markdown, and more), edit PDFs, and process document workflows without relying on proprietary desktop suites or per-file cloud uploads.
-
-**Examples** include Adobe Acrobat Export PDF, CloudConvert, Zamzar, Smallpdf, iLovePDF, Nitro Cloud, Wondershare PDF Converter, Soda PDF, PDF Candy, and FreePDFConvert (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with active projects for self-hosted document conversion, browser-based PDF toolkits, and command-line batch processing — ideal for privacy-conscious teams, developers, and enterprises replacing paid SaaS with sovereign infrastructure.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Adobe Acrobat Export PDF](https://www.adobe.com/acrobat/online/pdf-to-word.html)**  
-  Adobe's cloud service for exporting PDFs to editable Word, Excel, and PowerPoint formats with high fidelity to original layouts.
-
-- **[CloudConvert](https://cloudconvert.com/)**  
-  File conversion API and web interface supporting 200+ formats, with job orchestration, webhooks, and batch processing for documents, images, and media.
-
-- **[Zamzar](https://www.zamzar.com/)**  
-  Online file conversion service covering over 1,100 format pairs, including document, image, audio, and video conversions.
-
-- **[Smallpdf](https://smallpdf.com/)**  
-  Suite of PDF tools including conversion (PDF to/from Word, Excel, PPT), compression, merging, and e-signing, with a clean web interface.
-
-- **[iLovePDF](https://www.ilovepdf.com/)**  
-  Popular PDF toolkit for conversion, merge, split, compress, OCR, and watermarking, available via web and API.
-
-- **[Nitro Cloud](https://www.gonitro.com/)**  
-  Cloud-based PDF conversion and editing service integrated with Nitro's desktop productivity suite.
-
-- **[Wondershare PDF Converter](https://pdf.wondershare.com/pdf-converter/)**  
-  Desktop and cloud conversion tool for transforming PDFs into Office formats and images with OCR support.
-
-- **[Soda PDF](https://www.sodapdf.com/)**  
-  PDF editing and conversion platform with online and desktop options, supporting creation, conversion, and e-signing.
-
-- **[PDF Candy](https://pdfcandy.com/)**  
-  Free online PDF toolkit with conversion, editing, and utility tools, plus a desktop version for offline use.
-
-- **[FreePDFConvert](https://www.freepdfconvert.com/)**  
-  Simple web-based PDF conversion service for PDF to Word, Excel, and other formats.
-
-## Open-Source GitHub Projects
-
-- **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)**  
-  Self-hosted, web-based PDF manipulation powerhouse with 50+ tools including merge, split, OCR, sign, redact, compress, and **Office format conversion** (DOCX, XLSX, PPTX, ODT) via embedded LibreOffice; Docker-deployable with user accounts and REST API .
-
-- **[BentoPDF](https://github.com/alam00000/bentopdf)**  
-  Privacy-first, browser-based PDF toolkit with 130+ tools; performs **PDF↔Office conversion** entirely client-side using WebAssembly (LibreOffice WASM, PyMuPDF, Ghostscript), with no file uploads to any server; self-hostable via Docker or static hosting .
-
-- **[Pandoc](https://github.com/jgm/pandoc)**  
-  The universal document converter, supporting conversion between dozens of markup and document formats including Markdown, DOCX, ODT, HTML, LaTeX, EPUB, and PDF (via external engines); the standard for programmatic, scriptable format transformation .
-
-- **[LibreOffice](https://github.com/LibreOffice/core)**  
-  Full open-source office suite with powerful headless conversion via `soffice --headless --convert-to`; converts DOCX, XLSX, PPTX, ODT, PDF, HTML, and more from the command line, making it the backbone of most self-hosted conversion pipelines .
-
-- **[ConvertAgent](https://github.com/vid-factory/convertagent)**  
-  Self-hosted file conversion toolkit designed for AI agents and developers; exposes CLI, REST API, and MCP server interfaces backed by FFmpeg, LibreOffice, ImageMagick, and Pandoc; supports 20 conversion pairs including PDF→DOCX, DOCX→PDF, HTML→PDF, and Markdown→DOCX .
-
-- **[anyconvert](https://github.com/word-sys/anyconvert)**  
-  Pure-Python PDF conversion engine that outputs DOCX, PPTX, ODT, ODP, and TXT using only the standard library; offers **Canvas Mode** for pixel-accurate layout preservation and **Flow Mode** for semantic reflowable reconstruction; supports encrypted PDFs and standards-compliant OPC/ODF packaging .
-
-- **[Duckling](https://github.com/excelano/duckling)**  
-  Offline GUI for document conversion powered by `docling.rs` (Rust port of IBM Docling); converts Word, PowerPoint, Excel, PDF, HTML, EPUB, RTF, and OpenDocument files to Markdown, JSON, LaTeX, DOCX, ODT, and more; includes built-in OCR for scanned documents; MIT-licensed .
-
-- **[file-converter-tool](https://github.com/ab0jwad/file-converter)**  
-  Python-based multi-format converter with CLI and GUI; supports document (PDF→DOCX, TXT→DOCX, Markdown→HTML), data (CSV↔JSON, XML, XLSX), and image format conversions; MIT-licensed and pip-installable .
-
-- **[pdf2wordx](https://pypi.org/project/pdf2wordx/)**  
-  Free desktop application (Python/Tkinter) for converting PDF files to editable DOCX documents in two clicks; no cloud uploads, no subscriptions; uses the `pdf2docx` library as its conversion engine .
-
-- **[DocWen](https://github.com/ZHYX91/docwen)**  
-  Local-first GUI and CLI for document conversion and proofreading; supports Word↔Markdown, Excel/CSV↔Markdown workflows with template systems, punctuation checking, and sensitive word detection .
-
-### Additional Strong Open-Source Options
-
-- **Ghostscript** — The foundational PostScript/PDF interpreter and rasterizer; essential for PDF/A conversion, font outlining, and PDF manipulation in larger pipelines.
-- **qpdf** — Command-line PDF transformation tool for linearization, encryption, and structural repair; bundled inside Stirling-PDF and BentoPDF.
-- **PyMuPDF** — High-performance Python library for PDF manipulation, text extraction, and rendering; powers conversion features in several browser-based toolkits.
-- **pdf-lib** — JavaScript library for creating and modifying PDFs in browser and Node.js; used by BentoPDF for core PDF operations.
-- **Calibre** — E-book management and conversion suite with powerful format transformation for EPUB, MOBI, AZW3, PDF, and more .
-
-**Frameworks for building custom systems**: Combine **LibreOffice** headless for Office format conversion, **Pandoc** for markup transformation, **Stirling-PDF** or **BentoPDF** as the user-facing web interface, and **Ghostscript** or **qpdf** for PDF-specific processing in a fully self-hosted document conversion pipeline.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Document conversion tools must comply with applicable regulations and respect the licensing terms of any bundled or referenced third-party engines.
-- Self-hosted open-source solutions require proper security hardening, resource planning (especially for LibreOffice-based conversions which can be memory-intensive), and output quality validation for complex layouts.
-- Verify license terms for commercial use; some projects use AGPL-3.0 or similar licenses that may require releasing derivative code if distributed.
-
----
-
-**Made for developers, IT administrators, privacy-conscious teams, and document workflow engineers.**  
+## Top Document Conversion Software Ecosystem
+
+
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+
+*Focused on Format Transformation, PDF Editing & Self-Hosted Document Processing*  
+
+**Last updated: October 2026**
+
+
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Document Conversion Software**. These tools enable users to convert documents between formats (PDF, DOCX, ODT, HTML, Markdown, and more), edit PDFs, and process document workflows without relying on proprietary desktop suites or per-file cloud uploads.
+
+
+
+**Examples** include Adobe Acrobat Export PDF, CloudConvert, Zamzar, Smallpdf, iLovePDF, Nitro Cloud, Wondershare PDF Converter, Soda PDF, PDF Candy, and FreePDFConvert (the category leaders).
+
+
+
+**Open-source emphasis**: This section is heavily expanded with active projects for self-hosted document conversion, browser-based PDF toolkits, and command-line batch processing — ideal for privacy-conscious teams, developers, and enterprises replacing paid SaaS with sovereign infrastructure.
+
+
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saas-products)
+
+- [Open-Source GitHub Projects](#open-source-github-projects)
+
+- [How to Contribute](#how-to-contribute)
+
+- [Disclaimer](#disclaimer)
+
+
+
+## SaaS/Hosted Platforms
+
+
+
+- **[Adobe Acrobat Export PDF](https://www.adobe.com/acrobat/online/pdf-to-word.html)**  
+
+  Adobe's cloud service for exporting PDFs to editable Word, Excel, and PowerPoint formats with high fidelity to original layouts.
+
+
+
+- **[CloudConvert](https://cloudconvert.com/)**  
+
+  File conversion API and web interface supporting 200+ formats, with job orchestration, webhooks, and batch processing for documents, images, and media.
+
+
+
+- **[Zamzar](https://www.zamzar.com/)**  
+
+  Online file conversion service covering over 1,100 format pairs, including document, image, audio, and video conversions.
+
+
+
+- **[Smallpdf](https://smallpdf.com/)**  
+
+  Suite of PDF tools including conversion (PDF to/from Word, Excel, PPT), compression, merging, and e-signing, with a clean web interface.
+
+
+
+- **[iLovePDF](https://www.ilovepdf.com/)**  
+
+  Popular PDF toolkit for conversion, merge, split, compress, OCR, and watermarking, available via web and API.
+
+
+
+- **[Nitro Cloud](https://www.gonitro.com/)**  
+
+  Cloud-based PDF conversion and editing service integrated with Nitro's desktop productivity suite.
+
+
+
+- **[Wondershare PDF Converter](https://pdf.wondershare.com/pdf-converter/)**  
+
+  Desktop and cloud conversion tool for transforming PDFs into Office formats and images with OCR support.
+
+
+
+- **[Soda PDF](https://www.sodapdf.com/)**  
+
+  PDF editing and conversion platform with online and desktop options, supporting creation, conversion, and e-signing.
+
+
+
+- **[PDF Candy](https://pdfcandy.com/)**  
+
+  Free online PDF toolkit with conversion, editing, and utility tools, plus a desktop version for offline use.
+
+
+
+- **[FreePDFConvert](https://www.freepdfconvert.com/)**  
+
+  Simple web-based PDF conversion service for PDF to Word, Excel, and other formats.
+
+
+
+## Open-Source GitHub Projects
+
+
+
+- **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)**  
+
+  Self-hosted, web-based PDF manipulation powerhouse with 50+ tools including merge, split, OCR, sign, redact, compress, and **Office format conversion** (DOCX, XLSX, PPTX, ODT) via embedded LibreOffice; Docker-deployable with user accounts and REST API .
+
+
+
+- **[BentoPDF](https://github.com/alam00000/bentopdf)**  
+
+  Privacy-first, browser-based PDF toolkit with 130+ tools; performs **PDF↔Office conversion** entirely client-side using WebAssembly (LibreOffice WASM, PyMuPDF, Ghostscript), with no file uploads to any server; self-hostable via Docker or static hosting .
+
+
+
+- **[Pandoc](https://github.com/jgm/pandoc)**  
+
+  The universal document converter, supporting conversion between dozens of markup and document formats including Markdown, DOCX, ODT, HTML, LaTeX, EPUB, and PDF (via external engines); the standard for programmatic, scriptable format transformation .
+
+
+
+- **[LibreOffice](https://github.com/LibreOffice/core)**  
+
+  Full open-source office suite with powerful headless conversion via `soffice --headless --convert-to`; converts DOCX, XLSX, PPTX, ODT, PDF, HTML, and more from the command line, making it the backbone of most self-hosted conversion pipelines .
+
+
+
+- **[ConvertAgent](https://github.com/vid-factory/convertagent)**  
+
+  Self-hosted file conversion toolkit designed for AI agents and developers; exposes CLI, REST API, and MCP server interfaces backed by FFmpeg, LibreOffice, ImageMagick, and Pandoc; supports 20 conversion pairs including PDF→DOCX, DOCX→PDF, HTML→PDF, and Markdown→DOCX .
+
+
+
+- **[anyconvert](https://github.com/word-sys/anyconvert)**  
+
+  Pure-Python PDF conversion engine that outputs DOCX, PPTX, ODT, ODP, and TXT using only the standard library; offers **Canvas Mode** for pixel-accurate layout preservation and **Flow Mode** for semantic reflowable reconstruction; supports encrypted PDFs and standards-compliant OPC/ODF packaging .
+
+
+
+- **[Duckling](https://github.com/excelano/duckling)**  
+
+  Offline GUI for document conversion powered by `docling.rs` (Rust port of IBM Docling); converts Word, PowerPoint, Excel, PDF, HTML, EPUB, RTF, and OpenDocument files to Markdown, JSON, LaTeX, DOCX, ODT, and more; includes built-in OCR for scanned documents; MIT-licensed .
+
+
+
+- **[file-converter-tool](https://github.com/ab0jwad/file-converter)**  
+
+  Python-based multi-format converter with CLI and GUI; supports document (PDF→DOCX, TXT→DOCX, Markdown→HTML), data (CSV↔JSON, XML, XLSX), and image format conversions; MIT-licensed and pip-installable .
+
+
+
+- **[pdf2wordx](https://pypi.org/project/pdf2wordx/)**  
+
+  Free desktop application (Python/Tkinter) for converting PDF files to editable DOCX documents in two clicks; no cloud uploads, no subscriptions; uses the `pdf2docx` library as its conversion engine .
+
+
+
+- **[DocWen](https://github.com/ZHYX91/docwen)**  
+
+  Local-first GUI and CLI for document conversion and proofreading; supports Word↔Markdown, Excel/CSV↔Markdown workflows with template systems, punctuation checking, and sensitive word detection .
+
+
+
+### Additional Strong Open-Source Options
+
+
+
+- **Ghostscript** — The foundational PostScript/PDF interpreter and rasterizer; essential for PDF/A conversion, font outlining, and PDF manipulation in larger pipelines.
+
+- **qpdf** — Command-line PDF transformation tool for linearization, encryption, and structural repair; bundled inside Stirling-PDF and BentoPDF.
+
+- **PyMuPDF** — High-performance Python library for PDF manipulation, text extraction, and rendering; powers conversion features in several browser-based toolkits.
+
+- **pdf-lib** — JavaScript library for creating and modifying PDFs in browser and Node.js; used by BentoPDF for core PDF operations.
+
+- **Calibre** — E-book management and conversion suite with powerful format transformation for EPUB, MOBI, AZW3, PDF, and more .
+
+
+
+**Frameworks for building custom systems**: Combine **LibreOffice** headless for Office format conversion, **Pandoc** for markup transformation, **Stirling-PDF** or **BentoPDF** as the user-facing web interface, and **Ghostscript** or **qpdf** for PDF-specific processing in a fully self-hosted document conversion pipeline.
+
+
+
+## How to Contribute
+
+
+
+1. Fork the repo.
+
+2. Add/edit entries in `README.md` (follow existing format).
+
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+
+4. Submit PR with a short explanation.
+
+
+
+Star the repo if you find it useful!
+
+
+
+## Disclaimer
+
+
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+
+- Document conversion tools must comply with applicable regulations and respect the licensing terms of any bundled or referenced third-party engines.
+
+- Self-hosted open-source solutions require proper security hardening, resource planning (especially for LibreOffice-based conversions which can be memory-intensive), and output quality validation for complex layouts.
+
+- Verify license terms for commercial use; some projects use AGPL-3.0 or similar licenses that may require releasing derivative code if distributed.
+
+
+
+---
+
+
+
+**Made for developers, IT administrators, privacy-conscious teams, and document workflow engineers.**  
+
 Let's make document conversion more open, private, and accessible.
