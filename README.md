@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Document-Conversion-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Document-Conversion-Software?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-Conversion-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Document-Conversion-Software?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Document-Conversion-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Document-Conversion-Software?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Document-Conversion-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Document-Conversion-Software/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -74,7 +74,7 @@ The table below provides a competitive analysis of category-leading SaaS documen
 
 ## 💻 Open-Source Document Conversion Engines & Libraries
 
-The following projects represent the pinnacle of open-source document conversion technology. They are **sorted in descending order by GitHub star count**, equipped with live star badges linking to each project's stargazers community.
+The following projects represent the pinnacle of open-source document conversion technology. They are **sorted in descending order by GitHub Stars_Count**, equipped with live Stars_Badges linking to each project's stargazers community.
 
 ---
 
@@ -330,7 +330,7 @@ Contributions from the developer community and document software creators are wa
 3. 📝 **Add or update entries in `README.md`**:
    - Ensure tools are categorized correctly under SaaS or Open-Source.
    - For SaaS products, provide exact starting pricing, company valuation/revenue metrics, and explicit free tier/trial limits.
-   - For Open-Source repositories, include the official `style=social` GitHub stars badge linking to the stargazers page and ensure placement respects star count descending order.
+   - For Open-Source repositories, include the official `style=social` GitHub_Stars_Badge linking to the stargazers page and ensure placement respects Stars_Count descending order.
 4. 🚀 **Submit a Pull Request** with a concise description of the added software.
 
 ---
